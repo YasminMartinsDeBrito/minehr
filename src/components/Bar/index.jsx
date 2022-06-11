@@ -1,5 +1,5 @@
 import ReactApexChart from "react-apexcharts";
-import "./styles.css"
+import "../styles.css"
 const Bar = () => {
 
     const [list, SetList] = ([{
@@ -28,11 +28,12 @@ const Bar = () => {
         }}])
       
         return (
-            
-
-      <div id="chart">
-        <ReactApexChart options={list.options} series={list.series} type="bar" height={350} />
-        </div>
+                <div id="list">
+                    <strong>Barras</strong>
+                    <div id="list-bar">
+                        <ReactApexChart options={list.options} series={list.series} type="bar" height={350} />
+                     </div>
+              </div>
         )
         
     }

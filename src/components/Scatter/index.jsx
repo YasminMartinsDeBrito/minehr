@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "../styles.css"
 import ReactApexChart from "react-apexcharts";
 
 
@@ -42,8 +43,12 @@ const Scatter = () => {
 
     return (
         <>
-        <div id="chart">
-            <ReactApexChart options={scartter.options} series={scartter.series} type="scatter" height={350} />
+        <div id="scart">
+            <strong>Scartter</strong>
+            <div id='ponto'></div>
+            <div id='scart-bar'>
+              <ReactApexChart options={scartter.options} series={scartter.series} type="scatter" height={350} />
+            </div>
         </div>
         </>
     )

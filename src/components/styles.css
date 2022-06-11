@@ -1,0 +1,33 @@
+#list{
+    color: #5D405C;
+    display: flex;
+    justify-content: center;
+    width:45vw;
+    height: 420px;
+    top: 400px;
+    padding: 10px;
+    box-shadow: -1px 2px 10px 3px rgb(196, 195, 195);
+    border-radius: 10px;
+}
+#list-bar{
+    margin-top: 10px;
+    width: 500px;
+    height: 360px;
+}
+#scart{
+    color: #5D405C;
+    display: flex;
+    justify-content: center;
+    width:45vw;
+    height: 420px;
+    top: 400px;
+    padding: 10px;
+    box-shadow: -1px 2px 10px 3px rgb(196, 195, 195);
+    border-radius: 10px;
+}
+#scart-bar{
+    margin-top: 10px;
+    width: 500px;
+    height: 360px;
+}
+
