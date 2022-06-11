@@ -11,6 +11,7 @@ function App() {
     <>
     <header></header>
     <main>
+      
       <div id="text">
         <div>
           <h1>Dashboard</h1>
@@ -18,6 +19,7 @@ function App() {
         </div>
         <button><FaFilter/><span>Filtrar</span></button>
       </div>
+
       <section>
         <Bar/>
         <Scatter/>
