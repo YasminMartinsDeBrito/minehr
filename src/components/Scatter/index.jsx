@@ -4,7 +4,7 @@ import ReactApexChart from "react-apexcharts";
 
 
 const Scatter = () => {
-    const [scartter, setScartter] = useState({
+    const [scatter, setScatter] = useState({
         series: [{
           name: "SAMPLE A",
           data: [
@@ -44,10 +44,10 @@ const Scatter = () => {
     return (
         <>
         <div id="scart">
-            <strong>Scartter</strong>
+            <strong>Scatter</strong>
             <div id='ponto'></div>
             <div id='scart-bar'>
-              <ReactApexChart options={scartter.options} series={scartter.series} type="scatter" height={350} />
+              <ReactApexChart options={scatter.options} series={scatter.series} type="scatter" height={350} />
             </div>
         </div>
         </>
